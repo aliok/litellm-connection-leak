@@ -1,0 +1,6 @@
+model_list:
+  - model_name: gpt-4o
+    litellm_params:
+      model: openai/gpt-4o
+      api_base: http://host.docker.internal:5001/v1/
+      api_key: api-key

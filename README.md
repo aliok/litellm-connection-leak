@@ -1,5 +1,7 @@
 ## Summary
 
+Reproducer for https://github.com/BerriAI/litellm/issues/9178
+
 LiteLLM does not close the proxy connections to the backing LLM server, even if the requests are cancelled by the
 client.
 
